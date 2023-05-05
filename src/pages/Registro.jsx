@@ -92,7 +92,9 @@ const Registro = () => {
        <br/>
       <div className="entregar" href="https://lineadecodigo.com/html/c-de-copyright/">© 2022 Copyright: Todos los derechos
       Reservados-SICO.com
+
     </div>
+    /* Un comentario JSX */
     </div>
      
      )
