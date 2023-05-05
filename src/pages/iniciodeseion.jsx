@@ -19,7 +19,7 @@ const iniciodesesion = () => {
   <div class="formulario1">
   <form method="post">
     <div class="username1">
-      <input  class="reglon1 "type="text" id="op1" placeholder="Usuario"/>
+      <input  class="reglon1 "type="text" id="op1" placeholder="Usuario"/> 
     </div>
    <div>
    <Conini/>
