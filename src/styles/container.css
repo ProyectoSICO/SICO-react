@@ -1,0 +1,77 @@
+.formulario2 {
+    width: 400px;
+    height: 225px;
+    background-color: white;
+    margin: auto;
+    margin-top: 180px;
+    padding: 25px 30px;
+    border: rgb(189, 189, 189) 1px solid;
+    border-radius: 20px;
+
+}
+
+.formulario2 .username2 .reglon2 {
+    width: 89%;
+    border: 1px solid rgb(189, 189, 189);
+    margin-bottom: 30px;
+    padding: 11px 10px;
+    border-radius: 10px;
+    font-family: sans-serif;
+
+}
+
+.formulario2 .username2 .reglon2 {
+    width: 88%;
+    border: 1px solid rgb(189, 189, 189);
+    margin-bottom: 30px;
+    padding: 11px;
+    border-radius: 10px;
+    font-family: sans-serif;
+
+}
+
+.razon {
+
+    font-family: sans-serif;
+    color: #349CE0;
+   
+}
+
+.razon:hover {
+    color: #9DC9E6;
+
+
+}.razon6{
+    padding-right: 100px;
+    font-family: sans-serif;
+    color: #349CE0;
+}
+.razon6:hover {
+    color: #74bded;
+
+
+}
+.bot4 .bot5 {
+    width: 95%;
+    border: 1px solid #349CE0;
+    margin-bottom: 30px;
+    padding: 8px 166px;
+    font-family: sans-serif;
+    background-color: #349CE0;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.bot4 .bot5:hover {
+    background-color: #349CE0;
+    border: 2px solid #349CE0;
+    color: #9DC9E6;
+}
+
+.entregar2 {
+    text-align: center;
+    background-color: rgb(227, 223, 223);
+    color: grey;
+    border: 1px solid rgb(227, 223, 223);
+}
