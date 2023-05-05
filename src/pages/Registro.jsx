@@ -94,7 +94,7 @@ const Registro = () => {
       Reservados-SICO.com
 
     </div>
-    /* Un comentario JSX */
+    
     </div>
      
      )
