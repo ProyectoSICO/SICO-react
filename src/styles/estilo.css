@@ -72,13 +72,15 @@ header {
     color: #9DC9E6;
   }
   
-  .razon {
+  .razon1 {
   
-    padding: 2px 100px;
+    padding: 2px 55px;
     font-family: sans-serif;
+    color:#5195C2;
+    float: right;
   }
   
-  .razon:hover {
+  .razon1:hover {
     color: #9DC9E6;
   
   }

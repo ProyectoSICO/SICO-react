@@ -1,11 +1,13 @@
 import React from 'react';
 import logo from './img/Sico.png';
 import usuario from './img/usuario.png';
-
+import '../components/contraseña';
 import Contraseña from '../components/contraseña';
-
+import '../components/volver';
+import Volver from '../components/volver';
 
 const Registro = () => {
+
     return(
    
     <div>
@@ -75,15 +77,14 @@ const Registro = () => {
           style={{float:"right"}} />
         </div>
          <div>
-            <Contraseña/>
+          <Contraseña/>
          </div>
         <div className='boton1'>
         <input  className='boton2' type='submit' value= "Registrar" />
         </div>
         </form>
-        <div class="razon">
-        <a href="Index.html" onmouseover="imgOver(img1)" onmouseout="imgOut(img1)"
-       style= {{color: "#349CE0",float:"right"}}>Regresar</a>
+        <div >
+      <Volver/>
     </div>
        <br/>
        <br/>

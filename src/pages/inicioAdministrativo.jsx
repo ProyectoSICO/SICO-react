@@ -1,12 +1,14 @@
 import React  from 'react';
 import Usuario1 from './img/Usuario1.png';
 import logo from './img/Sico.png';
-import '../components/cinini';
-import Conini from '../components/cinini';
+import '../components/Conini';
+import Conini from '../components/Conini';
 import '../components/link';
 import Link from '../components/link';
 
-const iniciodesesion = () => {
+
+
+const inicioAdministrativo = () => {
 
    return (
    <div>
@@ -16,21 +18,23 @@ const iniciodesesion = () => {
         <br/>
         <div align="center"><img src={Usuario1} className='usu' alt='persona' style={{width:"69px"} }/></div>
         </header>
-  <div class="formulario1">
+  <div class="formulario2">
+  <br/>
   <form method="post">
-    <div class="username1">
-      <input  class="reglon1 "type="text" id="op1" placeholder="Usuario"/>
-    </div>
+  <div class="username2">
+          <input class="reglon2 " type="text" id="op1" placeholder="Correo Institucional" autofocus required/>
+        </div>
    <div>
    <Conini/>
    </div>
-   <div>
-     <Link/>
+   <div >
+   <Link/>
     </div>
-    <br/>    
+    <br/>  
     <div className='bot4'>
         <input  className='bot5' type='submit' value= "Iniciar" />
         </div>
+     <br/> 
   </form>
 </div>
 <br/>
@@ -45,4 +49,4 @@ const iniciodesesion = () => {
     
     )
 };
-export default iniciodesesion;
+export default inicioAdministrativo;
