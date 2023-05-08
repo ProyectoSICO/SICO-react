@@ -1,7 +1,7 @@
 /* componente para simular máquina de escribir en frase principal de página Home  */
 
 import Typewriter from "typewriter-effect";
-import '../styles.css/deletrear.css';
+import '../styles/deletrear.css';
 
 export default function Deletrear() {
   return (

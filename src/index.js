@@ -3,9 +3,9 @@
 
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./styles.css/estilo.css";
-import "./styles.css/inicio.css";
-import "./styles.css/container.css";
+import "./styles/estilo.css";
+import "./styles/inicio.css";
+import "./styles/container.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Home from "./routes/Home";

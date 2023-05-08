@@ -1,6 +1,6 @@
 /* componente para el header de Home  */
 
-import "../styles.css/navhome.css";
+import "../styles/navhome.css";
 import { Link } from "react-router-dom";
 
 export default function Navhome() {

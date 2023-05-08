@@ -1,6 +1,6 @@
 /* componente para importar linea de información al footer de Home  */
 
-import "../styles.css/footerhome.css"
+import "../styles/footerhome.css"
 
 export default function Footer() {
     const year = new Date().getFullYear();

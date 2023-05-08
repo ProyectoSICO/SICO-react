@@ -1,6 +1,6 @@
 /* componente para importar iconos de redes sociales y linea de información al footer de Home  */
 
-import "../styles.css/footerhome.css";
+import "../styles/footerhome.css";
 import { FaGoogle, FaTwitter, FaWhatsapp, FaYoutube, FaFacebook} from "react-icons/fa";
 
 

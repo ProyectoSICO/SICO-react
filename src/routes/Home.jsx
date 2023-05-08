@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import Navhome from "../componentes/Navhome";
 import Footerhome from "../componentes/Footerhome";
 import Deletrear from "../componentes/Deletrear";
-import '../styles.css/home.css';
+import "../styles/home.css";
 
 export default function Home() {
     return (
