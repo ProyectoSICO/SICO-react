@@ -1,3 +1,5 @@
+/* Interfaz css para Registro */
+
 header {
     position: absolute;
     top: 0;
@@ -8,13 +10,13 @@ header {
 
 }
 .logo1 {
-   width: 250px;
+   width: 200px;
 }
 
 .formulario {
 
     width: 600px;
-    height: 380px;
+    height: 440px;
     background-color: white;
     margin: auto;
     margin-top: 100px;

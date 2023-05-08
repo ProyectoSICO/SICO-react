@@ -1,0 +1,14 @@
+/* Interfaz css para componente Deletrear */
+
+.Deletrear {
+    width: 100%;
+    font-family: sans-serif;
+    font-weight:800;
+    font-size:20px;
+    margin-bottom: 20px;
+    text-align: center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 20px;
+  }

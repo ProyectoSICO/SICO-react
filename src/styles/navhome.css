@@ -1,0 +1,48 @@
+/* Interfaz css para componente navhome*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    font-family: sans-serif;
+}
+
+.navhome {
+    display: flex;
+    border: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.containerNavhome {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 25px;
+}
+
+.imagenNavhome {
+    max-width: 200px;
+}
+
+.button {
+    background-color: white;
+    color: black;
+    margin-top: 15px;
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}

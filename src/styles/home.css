@@ -1,0 +1,112 @@
+/* Interfaz css para Home */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contenedorPrimario {
+    min-height: 15vh;
+    margin: 20px 0px 10px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.parrafo1 {
+    width: 90%;
+    margin: 15px 60px;
+    font-size: 20px;
+    text-align: center;
+    color: gray;
+}
+
+.contenedorBotones {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.button1 {
+    width: 180px;
+    border: 1px solid #349CE0;
+    padding: 10px 25px;
+    font-family: sans-serif;
+    font-size: 18px;
+    background-color: #349CE0;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-left: 25px;
+}
+
+.button1:hover {
+    color: #9DC9E6;
+}
+
+.contenedorlienzo {
+    width: 100%;
+    text-decoration: none;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.lienzo {
+    background-image: url("../imagenes/Bogota.png");
+    background-size: cover;
+    border: 0.1em solid gray;
+    box-shadow: 0px 0px 0.2px gray inset;
+    width: 98%;
+    height: 400px;
+    margin-top: 30px;
+    border-radius: 20px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.imagen {
+    width: 200px;
+    position: relative;
+    display: block;
+}
+
+@media (max-width: 750px) {
+
+    h1 {
+        font-size: 35px;
+    }
+
+    .parrafo1 {
+        font-size: 15px;
+    }
+    
+    .lienzo {
+        height: 300px;
+        background-size: cover;
+        
+    }
+
+    .imagen {
+        width: 100px;
+    }
+}

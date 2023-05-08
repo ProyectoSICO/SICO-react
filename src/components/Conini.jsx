@@ -1,7 +1,6 @@
-import React from "react";
 import { useState } from "react";
 
-const Contraseña = () => {
+export default function Contraseña() {
     const [showPwd, setShowPwd] = useState(true)
     return  <div> <div className= "username2">
     <div className="position-absolute pointer pwd-icon" onClick={() => setShowPwd(!showPwd)} style={{float:"23%"}}>
@@ -17,6 +16,5 @@ const Contraseña = () => {
     </div>
   </div>
   </div>
-}
-export default Contraseña
+};
 

@@ -1,4 +1,5 @@
-import React from "react";
+/* componente para generar contraseña */
+
 import { useState } from "react";
 
 const Contraseña = () => {
