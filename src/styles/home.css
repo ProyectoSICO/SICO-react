@@ -71,7 +71,7 @@ h1 {
 
 .lienzo {
     background-image: url("../imagenes/Bogota.png");
-    background-size: cover;
+    background-size:contain;
     border: 0.1em solid gray;
     box-shadow: 0px 0px 0.2px gray inset;
     width: 98%;
@@ -88,6 +88,20 @@ h1 {
     width: 200px;
     position: relative;
     display: block;
+    animation: slidein 10s infinite linear alternate;
+}
+
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+
+    }
+
+    to {
+        margin-left: 0%;
+
+    }
 }
 
 @media (max-width: 750px) {
@@ -99,11 +113,11 @@ h1 {
     .parrafo1 {
         font-size: 15px;
     }
-    
+
     .lienzo {
         height: 300px;
         background-size: cover;
-        
+
     }
 
     .imagen {
